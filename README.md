@@ -18,7 +18,7 @@ Sends MDM OS update command to devices by csv (serial numbers). Unable to get ma
 
 ## recovery-lock
 
-Lifted heavily from https://github.com/shbedev/jamf-recovery-lock, which should be used instead.
+Lifted heavily from https://github.com/shbedev/jamf-recovery-lock, which should be used instead. I used [this line](https://github.com/jamesfkane/jamf-api-scripts/blob/c6e855f60af6718ae5c3c27e0e839c3c7aa41010/recovery-lock/computers.py#L50) to point the script to a specific smart group in Jamf that targeted the devices we wanted.
 
 ## self-heal
 
